@@ -40,6 +40,6 @@
 
 (define (print-rat x)
   (newline)
-  (write (numer x))
-  (write-string "/")
-  (write (denom x)))
+  (display (numer x))
+  (display "/")
+  (display (denom x)))
