@@ -1,6 +1,6 @@
 ;; Given the following definitions of cons and car:
 (define (cons x y)
-  (lambda (m) (m x y))
+  (lambda (m) (m x y)))
 
 (define (car z)
   (z (lambda (p q) p)))
